@@ -1,0 +1,14 @@
+spring:
+  cloud:
+    azure:
+      storage:
+        blob:
+          account-name:
+          account-key:
+          blob-name:
+          container-name:
+  profiles:
+    active: develop
+logging:
+  level:
+    root: INFO
