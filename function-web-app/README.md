@@ -15,24 +15,24 @@ curl -s http://localhost:8080/supplier
 
 2. Function
 ```shell
-curl -s -d 'key=value' -X POST http://localhost:8080/uppercase 
+curl -s -d 'testValue' -H "Content-Type: text/plain" -X POST http://localhost:8080/uppercase 
 ```
 
 3. Consumer
 ```shell
-curl -s -d 'key=value' -X POST http://localhost:8080/consumer
+curl -s -d 'testValue' -H "Content-Type: text/plain" -X POST http://localhost:8080/consumer
 ```
 
 4. Read blob
 ```shell
-curl -s http://localhost:8080/readBlob
+curl -s -H "Content-Type: text/plain" http://localhost:8080/readBlob
 ```
 
 5. Write blob
 ```shell
 timestamp=$(date +%T)
 echo "timestamp=$timestamp"
-curl -s -d "timestamp=$timestamp" http://localhost:8080/writeBlob
+curl -s -d "timestamp=$timestamp" -H "Content-Type: text/plain" http://localhost:8080/writeBlob
 ```
 
 
