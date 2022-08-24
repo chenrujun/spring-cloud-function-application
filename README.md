@@ -34,3 +34,8 @@ timestamp=$(date +%T)
 echo "timestamp=$timestamp"
 curl -s -d "timestamp=$timestamp" http://localhost:8080/writeBlob
 ```
+
+
+## Run this application in Azure Spring Apps
+
+Refer to [this quickstart](https://docs.microsoft.com/azure/spring-apps/quickstart?tabs=Azure-CLI&pivots=programming-language-java) to run this application in Azure Spring Apps.
