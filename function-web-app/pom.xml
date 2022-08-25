@@ -12,7 +12,7 @@
   </parent>
 
   <groupId>chenrujun</groupId>
-  <artifactId>functino-web-app</artifactId>
+  <artifactId>function-web-app</artifactId>
   <version>1.0.0</version>
   <packaging>jar</packaging>
 
