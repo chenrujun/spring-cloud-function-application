@@ -10,6 +10,7 @@
   <packaging>pom</packaging>
 
   <modules>
+    <module>azure-function-app</module>
     <module>function-web-app</module>
     <module>web-app</module>
   </modules>
